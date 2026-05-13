@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-static void ler_vetor(double v[], int n) {
+// Le n valores para o vetor.
+void ler_vetor(double v[], int n) {
 	int i;
 	for (i = 0; i < n; i++) {
 		scanf("%lf", &v[i]);
 	}
 }
 
-static double media_vetor(const double v[], int n) {
+// Calcula a media do vetor.
+double media_vetor(const double v[], int n) {
 	double soma = 0.0;
 	int i;
 
@@ -18,7 +20,8 @@ static double media_vetor(const double v[], int n) {
 	return soma / n;
 }
 
-static int acima_media(const double v[], int n, double media) {
+// Conta quantos valores estao acima da media.
+int acima_media(const double v[], int n, double media) {
 	int i;
 	int cont = 0;
 

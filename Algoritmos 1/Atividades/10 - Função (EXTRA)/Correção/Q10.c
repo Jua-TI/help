@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static int busca_primeira(const int v[], int n, int x) {
+// Retorna a primeira posicao de x ou -1.
+int busca_primeira(const int v[], int n, int x) {
 	int i;
 	for (i = 0; i < n; i++) {
 		if (v[i] == x) {

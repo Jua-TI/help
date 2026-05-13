@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void ordenar(int v[], int n) {
+// Ordena o vetor em ordem crescente.
+void ordenar(int v[], int n) {
 	int i, j;
 	int temp;
 
@@ -15,7 +16,8 @@ static void ordenar(int v[], int n) {
 	}
 }
 
-static double mediana(const int v[], int n) {
+// Calcula a mediana do vetor ja ordenado.
+double mediana(const int v[], int n) {
 	if (n % 2 == 1) {
 		return v[n / 2];
 	}

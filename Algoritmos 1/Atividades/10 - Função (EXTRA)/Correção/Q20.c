@@ -5,11 +5,13 @@ typedef struct {
 	double nota;
 } Aluno;
 
-static void ler_aluno(Aluno *a) {
+// Le os dados de um aluno.
+void ler_aluno(Aluno *a) {
 	scanf("%49s %lf", a->nome, &a->nota);
 }
 
-static double media_turma(const Aluno alunos[], int n) {
+// Calcula a media das notas da turma.
+double media_turma(const Aluno alunos[], int n) {
 	int i;
 	double soma = 0.0;
 
@@ -20,7 +22,8 @@ static double media_turma(const Aluno alunos[], int n) {
 	return soma / n;
 }
 
-static int indice_maior_nota(const Aluno alunos[], int n) {
+// Retorna o indice do aluno com maior nota.
+int indice_maior_nota(const Aluno alunos[], int n) {
 	int i;
 	int idx = 0;
 

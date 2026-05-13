@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static long long potencia(int base, int expo) {
+// Calcula base elevado ao expoente.
+long long potencia(int base, int expo) {
 	int i;
 	long long resultado = 1;
 

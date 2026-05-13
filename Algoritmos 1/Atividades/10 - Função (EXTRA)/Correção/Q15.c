@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void inverte(char *s) {
+// Inverte a string no proprio vetor de caracteres.
+void inverte(char *s) {
 	int i = 0;
 	int j;
 	char temp;

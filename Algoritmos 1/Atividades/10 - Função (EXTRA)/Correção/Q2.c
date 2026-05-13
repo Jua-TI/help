@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static int mdc(int a, int b) {
+// Calcula o MDC usando o algoritmo de Euclides.
+int mdc(int a, int b) {
 	int r;
 
 	if (a < 0) {
@@ -19,7 +20,8 @@ static int mdc(int a, int b) {
 	return a;
 }
 
-static long long mmc(int a, int b) {
+// Calcula o MMC usando o MDC.
+long long mmc(int a, int b) {
 	int d = mdc(a, b);
 	long long produto = (long long)a * (long long)b;
 

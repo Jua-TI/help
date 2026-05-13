@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void maior_menor(const int v[], int n, int *maior, int *menor) {
+// Encontra o maior e o menor valor do vetor.
+void maior_menor(const int v[], int n, int *maior, int *menor) {
 	int i;
 	*maior = v[0];
 	*menor = v[0];

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void multiplica_2x2(const int a[2][2], const int b[2][2], int c[2][2]) {
+// Multiplica duas matrizes 2x2.
+void multiplica_2x2(const int a[2][2], const int b[2][2], int c[2][2]) {
 	int i, j, k;
 	for (i = 0; i < 2; i++) {
 		for (j = 0; j < 2; j++) {

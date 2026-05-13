@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static long long fatorial(int n) {
+// Calcula o fatorial de n.
+long long fatorial(int n) {
 	int i;
 	long long f = 1;
 

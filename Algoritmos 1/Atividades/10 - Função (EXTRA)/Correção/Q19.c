@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void para_binario(int n, char *out) {
+// Converte um inteiro para binario em forma de string.
+void para_binario(int n, char *out) {
 	char temp[40];
 	int i = 0;
 	int j;

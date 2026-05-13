@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void transposta(const int m[3][3], int t[3][3]) {
+// Gera a transposta de uma matriz 3x3.
+void transposta(const int m[3][3], int t[3][3]) {
 	int i, j;
 	for (i = 0; i < 3; i++) {
 		for (j = 0; j < 3; j++) {

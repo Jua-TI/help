@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static void remove_newline(char *s) {
+// Remove o '\n' do fim da string lida com fgets.
+void remove_newline(char *s) {
 	int i = 0;
 	while (s[i] != '\0') {
 		if (s[i] == '\n') {
@@ -11,7 +12,8 @@ static void remove_newline(char *s) {
 	}
 }
 
-static void remove_espacos(const char *src, char *dst) {
+// Copia a string removendo espacos e tabulacoes.
+void remove_espacos(const char *src, char *dst) {
 	int i, j = 0;
 	for (i = 0; src[i] != '\0'; i++) {
 		if (src[i] != ' ' && src[i] != '\t') {
@@ -21,7 +23,8 @@ static void remove_espacos(const char *src, char *dst) {
 	dst[j] = '\0';
 }
 
-static int conta_palavras(const char *s) {
+// Conta quantas palavras existem na string.
+int conta_palavras(const char *s) {
 	int i;
 	int palavras = 0;
 	int em_palavra = 0;

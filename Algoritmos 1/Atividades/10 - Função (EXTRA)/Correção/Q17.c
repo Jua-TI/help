@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-static void remove_newline(char *s) {
+// Remove o '\n' do fim da string lida com fgets.
+void remove_newline(char *s) {
 	int i = 0;
 	while (s[i] != '\0') {
 		if (s[i] == '\n') {
@@ -12,7 +13,8 @@ static void remove_newline(char *s) {
 	}
 }
 
-static void para_maiusculas(char *s) {
+// Converte todos os caracteres para maiusculas.
+void para_maiusculas(char *s) {
 	int i;
 	for (i = 0; s[i] != '\0'; i++) {
 		s[i] = (char)toupper((unsigned char)s[i]);

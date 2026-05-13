@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static int soma_intervalo(int a, int b) {
+// Soma os valores entre a e b (inclusive).
+int soma_intervalo(int a, int b) {
 	int i;
 	int soma = 0;
 

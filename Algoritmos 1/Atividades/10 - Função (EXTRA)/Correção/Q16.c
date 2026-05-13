@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-static void remove_newline(char *s) {
+// Remove o '\n' do fim da string lida com fgets.
+void remove_newline(char *s) {
 	int i = 0;
 	while (s[i] != '\0') {
 		if (s[i] == '\n') {
@@ -12,7 +13,8 @@ static void remove_newline(char *s) {
 	}
 }
 
-static void normaliza(const char *src, char *dst) {
+// Remove espacos e deixa tudo em minusculas para comparar.
+void normaliza(const char *src, char *dst) {
 	int i, j = 0;
 	for (i = 0; src[i] != '\0'; i++) {
 		if (src[i] != ' ' && src[i] != '\t') {
@@ -22,7 +24,8 @@ static void normaliza(const char *src, char *dst) {
 	dst[j] = '\0';
 }
 
-static int eh_palindromo(const char *s) {
+// Verifica se a string e palindromo.
+int eh_palindromo(const char *s) {
 	int i = 0;
 	int j;
 

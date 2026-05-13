@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static int eh_primo(int n) {
+// Retorna 1 se n for primo, caso contrario 0.
+int eh_primo(int n) {
 	int i;
 
 	if (n < 2) {

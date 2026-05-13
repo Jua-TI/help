@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-static int soma_linha(const int m[3][3], int linha) {
+// Soma os elementos de uma linha da matriz.
+int soma_linha(const int m[3][3], int linha) {
 	int j;
 	int soma = 0;
 
