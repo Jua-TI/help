@@ -1,1 +1,0 @@
-# NÃO BAIXE DEV C++ (Muito ruim)
