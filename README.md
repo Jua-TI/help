@@ -8,15 +8,15 @@ As listas não são de autoria nossa, são da FACOM (Faculdade de Computação) 
 
 ## ATENÇÃO: Para ver os arquivos.md de maneira certa, clique `"Control + Shift + V"`, faça isso quando abrir o arquivo, ira ver uma preview
 
-## Sequencia ideal de ver os arquivos [Programas e configurações](Programas%20e%20configurações/)
+## Sequencia ideal de ver os arquivos [Programas e configurações](Material%20de%20apoio/Programas%20e%20configurações/)
 
-Antes de começar a resolver questões ou estudar os cursos disponiveis em Material de Apoio. Acesse a [Programas e configurações](Programas%20e%20configurações/), e acesse os arquivos nessa sequencia para instalar e configurar de maneira certa sem se confundir.
+Antes de começar a resolver questões ou estudar os cursos disponiveis em Material de Apoio. Acesse a [Programas e configurações](Material%20de%20apoio/Programas%20e%20configurações/), e acesse os arquivos nessa sequencia para instalar e configurar de maneira certa sem se confundir.
 
-1. Caso você acabou de chegar e esta ainda em portugol, acesse apenas o [Portugol Studio.md](Programas%20e%20configurações/Portugol%20Studio.md). Já é um site, não tem necessidade de baixar nada. Caso ja tenha passado e precise usar C siga os passos restantes.
+1. Caso você acabou de chegar e esta ainda em portugol, acesse apenas o [Portugol Studio.md](Material%20de%20apoio/Programas%20e%20configurações/Portugol%20Studio.md). Já é um site, não tem necessidade de baixar nada. Caso ja tenha passado e precise usar C siga os passos restantes.
 
-2. Baixe a IDE primeiro, pode ser o [Antigravity.md](Programas%20e%20configurações/Antigravity.md) ou [Vs Code.md](Programas%20e%20configurações/Vs%20Code.md). Não baixe de jeito nenhum o Dev C++.
+2. Baixe a IDE primeiro, pode ser o [Antigravity.md](Material%20de%20apoio/Programas%20e%20configurações/Antigravity.md) ou [Vs Code.md](Material%20de%20apoio/Programas%20e%20configurações/Vs%20Code.md). Não baixe de jeito nenhum o Dev C++.
 
-3. Baixe e configure o C em [C.md](/Programas%20e%20configurações/C.md).
+3. Baixe e configure o C em [C.md](Material%20de%20apoio/Programas%20e%20configurações/C.md).
 
 4. Não é obrigatorio no inicio, mas depois de algoritmos 1 ja é quase obrigatorio usar o GitHub para compartilhar e salvar seus projetos, então é necessario baixar e configurar seu Git e de bonus o Wakatime, no [Git e Wakatime.md](/Programas%20e%20configurações/Git%20e%20Wakatime.md) você pode baixar e configuar.
 

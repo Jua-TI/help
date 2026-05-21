@@ -12,5 +12,5 @@ Use o formato:
 
 Exemplos:
 
-- [Programas e configurações](Programas%20e%20configurações/)
+- [Programas e configurações](Material%20de%20apoio/Programas%20e%20configurações/)
 - [Material de Apoio](Material%20de%20Apoio/)
